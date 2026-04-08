@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fundo circulares verdes -->
+  <circle cx="80" cy="60" r="45" fill="#4a7c2e" opacity="0.8"/>
+  <circle cx="120" cy="80" r="50" fill="#2d5016" opacity="0.9"/>
+  <circle cx="70" cy="120" r="45" fill="#6ba551" opacity="0.8"/>
+  <circle cx="130" cy="130" r="40" fill="#4a7c2e" opacity="0.7"/>
+  
+  <!-- Prédio/Casa no centro -->
+  <g transform="translate(100, 100)">
+    <!-- Base do prédio -->
+    <rect x="-20" y="-10" width="40" height="50" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+    
+    <!-- Telhado -->
+    <polygon points="0,-30 -25,-10 25,-10" fill="#8b4513" stroke="#333" stroke-width="1.5"/>
+    
+    <!-- Janelas -->
+    <rect x="-15" y="-5" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    <rect x="-3" y="-5" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    <rect x="7" y="-5" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    
+    <rect x="-15" y="8" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    <rect x="-3" y="8" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    <rect x="7" y="8" width="8" height="8" fill="#87ceeb" stroke="#333" stroke-width="0.5"/>
+    
+    <!-- Porta -->
+    <rect x="-6" y="22" width="12" height="18" fill="#654321" stroke="#333" stroke-width="1"/>
+    <circle cx="-1" cy="31" r="1.5" fill="#ffd700" stroke="#333" stroke-width="0.5"/>
+  </g>
+</svg>
